@@ -87,8 +87,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 self.dismiss(animated: true, completion: nil)
             }
         }
-        let view = storyboard?.instantiateViewController(withIdentifier: "ViewController")
-        self.present(view!, animated: true, completion: nil)
+        self.present(activityViewController, animated: true, completion: nil)
     }
     
     //MARK:  barbutton methods
